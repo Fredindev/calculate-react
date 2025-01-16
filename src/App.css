@@ -1,0 +1,78 @@
+body {
+  font-family: "Playwrite AU SA", sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input {
+  font-family: "Playwrite NV";
+  width: 380px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.botao-calcular {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #0da34b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao-calcular:hover {
+  background-color: #027729;
+}
+
+.resultado-container {
+  margin-top: 20px;
+  background: #e9f4fd;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.resultado-container p {
+  margin: 5px 0;
+  font-size: 18px;
+}
